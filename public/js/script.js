@@ -21,7 +21,7 @@ form.addEventListener("submit", async (event) => {
     window.location.href = '/clientes.html';
   } else {
     const divMensagem = document.querySelector('#mensagem');
-    divMensagem.textContent = resultado.mensagem; 
+    divMensagem.textContent = resultado.mensagem;
     divMensagem.style.display = 'block';
   }
 })

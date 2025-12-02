@@ -13,7 +13,7 @@ main {
   width: 80%;
   padding: 20px;
   background-color: white;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 
   h2 {
@@ -26,7 +26,8 @@ main {
     border-collapse: collapse;
     margin-top: 20px;
 
-    th, td {
+    th,
+    td {
       border: 1px solid #ddd;
       padding: 8px;
       text-align: left;
